@@ -1,0 +1,31 @@
+#+title: Gruber Darker
+
+[[Gruber Darker][https://jblevins.org/projects/emacs-color-themes/gruber-darker-theme.el.html]] color theme for Emacs by Jason Blevins. A darker variant of the [[http://daringfireball.net/projects/bbcolors/schemes/][Gruber Dark]] theme for BBEdit by John Gruber. Adapted for deftheme and extended by Alexey Kutepov a.k.a. rexim.
+
+Improvements made by Daniel Pinkston a.k.a. bardman/bardofsprites
+
+* Screenshots
+[[file:screenshot.png]]
+
+* Installation
+
+** Manual old fashioned way
+Download the theme to your local directory. You can do it through ~git clone~ command:
+
+#+begin_src shell
+git clone git://github.com/rexim/gruber-darker-theme.git
+#+end_src
+
+Then add path to gruber-darker-theme to custom-theme-load-path list — add the following to your emacs config file somewhere (.emacs, init.el, whatever):
+
+#+begin_src emacs-lisp
+(add-to-list 'custom-theme-load-path
+             "/path/to/gruber-darker-theme/")
+#+end_src
+
+Use ~M-x customize-themes~ to change your current theme.
+
+* Planned improvments
++ [ ] notmuch mail client
++ [ ] fix org blocks
++ [ ] add fixed/mixed pitch faces
