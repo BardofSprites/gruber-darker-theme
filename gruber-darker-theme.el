@@ -319,6 +319,8 @@
    `(org-level-5 ((t (:foreground ,gruber-darker-brown))))
    `(org-level-6 ((t (:foreground ,gruber-darker-quartz))))
 
+   `(org-headline-done ((t :foreground ,gruber-darker-green)))
+
    `(org-verbatim ((t (:foreground ,gruber-darker-wisteria))))
    `(org-code ((t (:foreground ,gruber-darker-niagara))))
    `(org-agenda-structure ((t (:foreground ,gruber-darker-niagara))))
