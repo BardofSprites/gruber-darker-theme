@@ -309,6 +309,15 @@
    `(neo-dir-link-face ((t (:foreground ,gruber-darker-niagara))))
 
    ;; Org Mode
+   `(org-level-1 ((t (:foreground ,gruber-darker-niagara))))
+   `(org-level-2 ((t (:foreground ,gruber-darker-green))))
+   `(org-level-3 ((t (:foreground ,gruber-darker-yellow))))
+   `(org-level-4 ((t (:foreground ,gruber-darker-wisteria))))
+   `(org-level-5 ((t (:foreground ,gruber-darker-brown))))
+   `(org-level-6 ((t (:foreground ,gruber-darker-quartz))))
+
+   `(org-verbatim ((t (:foreground ,gruber-darker-wisteria))))
+   `(org-code ((t (:foreground ,gruber-darker-niagara))))
    `(org-agenda-structure ((t (:foreground ,gruber-darker-niagara))))
    `(org-column ((t (:background ,gruber-darker-bg-1))))
    `(org-column-title ((t (:background ,gruber-darker-bg-1 :underline t :weight bold))))
