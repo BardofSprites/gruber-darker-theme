@@ -416,6 +416,23 @@
    `(orderless-match-face-1 ((t (:foreground ,gruber-darker-green))))
    `(orderless-match-face-2 ((t (:foreground ,gruber-darker-brown))))
    `(orderless-match-face-3 ((t (:foreground ,gruber-darker-quartz))))
+
+   ;; Elfeed
+   `(elfeed-search-date-face ((t (:foreground ,gruber-darker-niagara))))
+   `(elfeed-search-feed-face ((t (:foreground ,gruber-darker-yellow))))
+   `(elfeed-search-filter-face ((t (:inherit bold))))
+   `(elfeed-search-last-update-face ((t (:inherit bold :foreground ,gruber-darker-quartz))))
+   `(elfeed-search-tag-face ((t (:foreground ,gruber-darker-green))))
+   `(elfeed-search-title-face ((t (:foreground ,gruber-darker-fg))))
+   `(elfeed-search-unread-count-face (( )))
+   `(elfeed-search-unread-title-face ((t (:inherit bold :foreground ,gruber-darker-fg))))
+
+   `(elfeed-log-date-face ((t (:inherit elfeed-search-date-face))))
+   `(elfeed-log-debug-level-face ((t ((:inherit elfeed-search-filter-face)))))
+   `(elfeed-log-error-level-face ((t ((:inherit error)))))
+   `(elfeed-log-info-level-face ((t ((:inherit success)))))
+   `(elfeed-log-warn-level-face ((t ((:inherit warning)))))
+
    ))
 
 ;;;###autoload
